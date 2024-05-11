@@ -19,7 +19,7 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -33,9 +33,9 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Music Streaming Web Application Relational Database',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Spearheaded the ERD design, schema implementation, normalization, and physical development of an online music database using Azure SQL and MongoDB, leading four classmates in the database course.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
